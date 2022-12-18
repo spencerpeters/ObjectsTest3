@@ -13,6 +13,7 @@
 		094AD27C294EB33B0009AA53 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 094AD27A294EB33B0009AA53 /* Main.storyboard */; };
 		094AD27E294EB33D0009AA53 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 094AD27D294EB33D0009AA53 /* Assets.xcassets */; };
 		094AD281294EB33D0009AA53 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 094AD27F294EB33D0009AA53 /* LaunchScreen.storyboard */; };
+		094AD289294EC82C0009AA53 /* Triangle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 094AD288294EC82C0009AA53 /* Triangle.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		094AD27D294EB33D0009AA53 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		094AD280294EB33D0009AA53 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		094AD282294EB33D0009AA53 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		094AD288294EC82C0009AA53 /* Triangle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Triangle.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 		094AD273294EB33B0009AA53 /* ObjectsTest3 */ = {
 			isa = PBXGroup;
 			children = (
+				094AD288294EC82C0009AA53 /* Triangle.swift */,
 				094AD274294EB33B0009AA53 /* AppDelegate.swift */,
 				094AD276294EB33B0009AA53 /* SceneDelegate.swift */,
 				094AD278294EB33B0009AA53 /* ViewController.swift */,
@@ -141,6 +144,7 @@
 				094AD279294EB33B0009AA53 /* ViewController.swift in Sources */,
 				094AD275294EB33B0009AA53 /* AppDelegate.swift in Sources */,
 				094AD277294EB33B0009AA53 /* SceneDelegate.swift in Sources */,
+				094AD289294EC82C0009AA53 /* Triangle.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

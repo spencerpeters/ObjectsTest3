@@ -10,14 +10,21 @@ import Foundation
 
 class Square {
     
-    let location: CGPoint
+    var location: CGPoint
     let sidelength: CGFloat
     var toggled: Bool
     
     init(at location: CGPoint) {
-        self.location = location
-        self.sidelength = 100
+//        self.sidelength = 100
+        self.sidelength = 5
+//        self.location = location
         self.toggled = false
+        self.location = CGPoint.zero
+        self.setLocation(location: location)
+    }
+    
+    func setLocation(location: CGPoint) {
+        self.location = CGPoint(x: location.x - sidelength / 2, y: location.y - sidelength / 2)
     }
     
     func draw(onContext c: CGContext) {
